@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&display=swap");
+
+:root {
+  --primary-color: #4d7c0f;
+  --text-color-light: #f7fee7;
+  --gradient-dark: var(--primary-color);
+  --gradient-light: #65a30d;
+  --button-color: #65a30d;
+  --input-fields: #84cc16;
+  --input-fields-border: #3f6212;
+}
+
+body {
+  font-family: "Bitter", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  line-height: 150%;
+
+  background-image: linear-gradient(
+    var(--gradient-dark),
+    var(--gradient-light)
+  );
+  text-align: center;
+  color: var(--text-color-light);
+}
+
+/**Header**/
+
+.hero {
+  background-image: linear-gradient(
+    var(--gradient-light),
+    var(--gradient-dark)
+  );
+  padding: 2rem;
+}
+
+/**main**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+    var(--gradient-light),
+    var(--gradient-dark)
+  );
+  border-radius: 2rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 1.5rem auto;
+}
+
+.dob-heading {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.dob {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: var(--input-fields);
+  color: var(--text-color-light);
+  font-weight: bold;
+  border: 2px solid var(--input-fields-border);
+  border-radius: 1rem;
+}
+
+.button {
+  width: 15%;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem auto;
+  background-color: var(--button-color);
+  border-radius: 0.5rem;
+  border: 2px solid var(--gradient-dark);
+  color: var(--text-color-light);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.output {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.footer {
+  background-image: linear-gradient(
+    var(--gradient-light),
+    var(--gradient-dark)
+  );
+  padding: 1rem;
+}
+
+.footer p {
+  width: 60%;
+  margin: 1rem auto;
+}
