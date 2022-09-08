@@ -90,6 +90,12 @@ body {
   margin: 1.5rem auto;
 }
 
+@media only screen and (max-width: 400px){
+  .input-field {
+    width: 50%;
+  }
+}
+
 .dob-heading {
   font-size: 26px;
   font-weight: bolder;
