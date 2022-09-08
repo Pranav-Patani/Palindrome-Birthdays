@@ -37,6 +37,18 @@ body {
   padding: 2rem;
 }
 
+@media only screen and (max-width: 559px){
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 477px){
+  h1 {
+    font-size: 28px;
+  }
+}
+
 /**main**/
 
 .container {
@@ -52,6 +64,25 @@ body {
   border-radius: 2rem;
 }
 
+@media only screen and (max-width: 650px){
+  .container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .container {
+    width: 80%;
+  }
+}
+
+
 .input-field {
   display: flex;
   flex-direction: column;
@@ -60,9 +91,22 @@ body {
 }
 
 .dob-heading {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bolder;
 }
+
+@media only screen and (max-width: 559px){
+  .dob-heading {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 477px){
+  .dob-heading {
+    font-size: 22px;
+  }
+}
+
 
 .dob {
   width: 100%;
@@ -76,7 +120,6 @@ body {
 }
 
 .button {
-  width: 15%;
   padding: 0.8rem 1rem;
   margin: 0.5rem auto;
   background-color: var(--button-color);
@@ -103,4 +146,22 @@ body {
 .footer p {
   width: 60%;
   margin: 1rem auto;
+}
+
+@media only screen and (max-width: 714px){
+  .footer p {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .footer p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .footer p {
+    width: 90%;
+  }
 }
