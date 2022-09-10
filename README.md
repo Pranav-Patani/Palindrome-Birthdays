@@ -10,7 +10,7 @@ The Palindrome Birthdays app can check whether your birthday, or any date, is a 
 
 ![interface](images/interface.png)
 
-The output will get displayed the check button. Any errors will get displayed there as well.
+The output will get displayed under the check button. Any errors will get displayed there as well.
 
 - **Working**
 
